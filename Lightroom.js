@@ -1,4 +1,4 @@
-let body = JSON.parse($response.body)
+let body = JSON.parse($response.body);
 body.entitlement.status = "subscriber";
 body.current_subs = {
   "product_id": "lightroom",
